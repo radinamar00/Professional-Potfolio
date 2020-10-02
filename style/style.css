@@ -8,6 +8,7 @@
 html,
 body {
     min-height: 100%;
+  
 }
 
 :root {
@@ -19,6 +20,10 @@ body {
     --black: #000000;
     --grey: #646464;
 }
+
+::-webkit-scrollbar-thumb {
+    background: var(--orange);
+  }
 
 
 html {
@@ -125,7 +130,7 @@ html {
 
 .section1 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 55% 45%;
     grid-template-areas:
         'left-side right-side'
     ;
@@ -133,13 +138,13 @@ html {
 
 .left-side {
     grid-area: left-side;
-    padding: 10%;
+    padding: 10% 0% 5% 5%;
     margin-top: 8%;
 }
 
 .right-side {
     grid-area: right-side;
-    height: 92vh;
+    height: 95vh;
     background-repeat: no-repeat;
     background-image: url(../images/ddd.svg);
     background-size: auto;
@@ -166,14 +171,14 @@ h4 {
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .art {
     opacity: 0.1;
     color: gray;
     font-family: 'Kaushan Script', cursive;
-    margin-bottom: -7%;
+    margin-bottom: -5%;
 }
 
 .move-bit {
@@ -207,14 +212,27 @@ p {
 .two-b {
     display: flex;
     flex-direction: row;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .color-r {
     color: var(--orange);
     font-weight: bolder;
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 5%;
+    margin-left: 0%;
+}
+
+.left-side p {
+    font-style: italic;
+;
+}
+
+.color-m {
+    color: var(--orange);
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin-bottom: 0%;
 }
 
 .outline {
@@ -245,8 +263,8 @@ p {
 }
 
 .girl-chair img {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
 }
 
 .section2 {
@@ -302,6 +320,13 @@ h5 {
     grid-area: container;
 }
 
+.button a {
+    font-size: 1.8rem;
+}
+.outline a {
+    font-size: 1.8rem;
+
+}
 .box {
     /* position: relative; */
     padding: 2%;
@@ -324,6 +349,15 @@ h5 {
     font-size: 2.6rem;
 }
 
+.lets {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 0% 6% 0%;
+}
+
+/* .lets h3 {
+    font-size: 2rem;
+} */
 
 .order {
     display: grid;
@@ -368,17 +402,6 @@ h5 {
     margin-top: 10%;
 }
 
-
-/* #n11 img {
-    width: auto;
-    height: 100px;
-}
-
-#n22 img {
-
-    width: auto;
-    height: 100px;
-} */
 
 .box img {
     width: 250px;
