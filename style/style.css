@@ -8,7 +8,7 @@
 html,
 body {
     min-height: 100%;
-  
+
 }
 
 :root {
@@ -23,7 +23,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background: var(--orange);
-  }
+}
 
 
 html {
@@ -34,9 +34,9 @@ html {
 }
 
 .mooov {
-    margin-top: 30%;
+    margin-top: 55%;
     background-color: #FFD96E;
-   padding: 4% 0%;
+    padding: 4% 0%;
 }
 
 .section12 {
@@ -45,8 +45,8 @@ html {
     grid-template-columns: 50% 50%;
     gap: 10%;
     padding: 0% 15%;
-     margin-top: 0%; 
-     margin-bottom: 0%; 
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 
@@ -225,7 +225,7 @@ p {
 
 .left-side p {
     font-style: italic;
-;
+    ;
 }
 
 .color-m {
@@ -323,10 +323,12 @@ h5 {
 .button a {
     font-size: 1.8rem;
 }
+
 .outline a {
     font-size: 1.8rem;
 
 }
+
 .box {
     /* position: relative; */
     padding: 2%;
@@ -335,7 +337,7 @@ h5 {
     float: left;
     margin: 15px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25);
+    box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.074);
 }
 
 
@@ -380,6 +382,8 @@ h5 {
     float: left;
     margin: 15px;
     background-color: grey;
+    box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25);
+
 }
 
 .box2 {
@@ -389,6 +393,8 @@ h5 {
     float: left;
     margin: 15px;
     background-color: grey;
+    box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25);
+
 }
 
 .container2 {
@@ -440,13 +446,38 @@ h5 {
     transition: 0.5s;
 }
 
+#box5:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#box6:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#box5 {
+    background-image: url(../images/unify.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#box6 {
+    background-image: url(../images/cyclefe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 #box2 {
     background-color: #F3D9A6;
 }
 
 #box2 img {
-    height: 300px;
+    height: 260px;
     padding: 3%;
     float: left;
 }
@@ -555,8 +586,69 @@ footer {
     background-color: violet;
 }
 
+.top {
+    margin-bottom: 5%;
+}
+
+#unify_mapss img{
+    height: 300px;
+}
+
+.heropart_unify {
+    height: 50vh;
+    background-image: url(../images/unify.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heropart_cyclefe {
+    height: 50vh;
+    background-image: url(../images/cyclefe\ hero.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#unify_maps img {
+    height: 500px;
+}
+
+#unifyprop img {
+    height: 300px;
+    display: flex;
+}
+
+#unifyprops img {
+    height: 350px;
+    display: flex;
+}
+
 .stidycasess {
     padding: 0% 15%;
+}
+
+.btnstr {
+    background-color: var(--orange);
+    color: white;
+    padding: 1%;
+    margin-top: 2%;
+    list-style: none;
+    box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25);
+}
+
+
+
+.role a {
+    background-color: var(--orange);
+    color: white;
+    padding: 1%;
+    margin-top: 10%;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.role p {
+    margin-bottom: 2%;
 }
 
 .stidycasess h2 {
@@ -839,7 +931,7 @@ footer {
 
     footer {
         margin-top: 40%;
-      
+
     }
 
     #box1 {
@@ -1024,6 +1116,7 @@ footer {
     #n222 {
         height: 180px;
     }
+
     #n333 {
         height: 180px;
     }
@@ -1064,6 +1157,4 @@ footer {
 }
 
 
-@media (min-width:1025px) and (max-width:1440px) {
-
-}
+@media (min-width:1025px) and (max-width:1440px) {}
